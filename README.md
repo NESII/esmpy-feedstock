@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About esmpy
 ===========
 
@@ -18,9 +14,207 @@ Summary: ESMPy is a Python interface to the Earth System Modeling Framework (ESM
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/esmpy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/esmpy-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/esmpy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/esmpy-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+
+<table>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_mpimpichpython2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpichpython2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpimpichpython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpichpython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpimpichpython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpichpython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpimpichpython3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpichpython3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpinompipython2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpinompipython2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpinompipython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpinompipython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpinompipython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpinompipython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpinompipython3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpinompipython3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpiopenmpipython2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpipython2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpiopenmpipython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpipython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpiopenmpipython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpipython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpiopenmpipython3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpipython3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpichpython2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpichpython2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpichpython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpichpython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpichpython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpichpython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpichpython3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpichpython3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpinompipython2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpinompipython2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpinompipython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpinompipython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpinompipython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpinompipython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpinompipython3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpinompipython3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpipython2.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpipython2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpipython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpipython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpipython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpipython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpipython3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5321&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmpy-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpipython3.8" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>Windows</td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
+    </td>
+  </tr>
+  <tr>
+    <td>Linux_ppc64le</td>
+    <td>
+      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -117,4 +311,5 @@ Feedstock Maintainers
 * [@bekozi](https://github.com/bekozi/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@rokuingh](https://github.com/rokuingh/)
+* [@xylar](https://github.com/xylar/)
 
